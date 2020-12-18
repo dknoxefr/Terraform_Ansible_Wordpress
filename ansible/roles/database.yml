@@ -1,0 +1,9 @@
+---
+- hosts: db-server
+  gather_facts: true
+  become: yes
+  remote_user: ec2-user
+  become_user: root
+  
+  roles:
+    - database

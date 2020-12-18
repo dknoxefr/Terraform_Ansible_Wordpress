@@ -1,0 +1,7 @@
+---
+# vars file for webnword
+
+database_name: "wordpress"
+database_user: "Junebug"
+database_password: "Ap4ever2005"
+database_host: ""
